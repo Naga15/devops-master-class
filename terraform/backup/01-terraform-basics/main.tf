@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 # plan - execute 
-resource "aws_s3_bucket" "my_s3_bucket" {
+resource "aws_s3_bucket" "my_s3_bucket_001" {
     bucket = "my-s3-bucket-in28minutes-naga-001"
     versioning {
         enabled = true
